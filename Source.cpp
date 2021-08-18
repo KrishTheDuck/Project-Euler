@@ -7,4 +7,3 @@ int main() {
 	a->solve();
 	delete a;
 }
-
