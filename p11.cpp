@@ -12,8 +12,6 @@ void p11::read(std::string* file)
 
 	std::ifstream myfile(*file);
 	int i = 0, j = 0;
-	int a;
-
 	for (int i = 0; i < p11::N; i++)
 	{
 		p11::matrix[i] = new int[20];
@@ -81,5 +79,5 @@ void p11::solve() {
 	}
 
 	std::cout << max << std::endl;
-	~p11();
+	p11::~p11();
 }
