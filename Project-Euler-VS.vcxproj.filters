@@ -155,5 +155,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Source Files\p20.cpp" />
+    <None Include="Header Files\Descriptions.md" />
   </ItemGroup>
 </Project>

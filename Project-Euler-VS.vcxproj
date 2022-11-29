@@ -68,6 +68,7 @@
     <ClCompile Include="Source Files\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Header Files\Descriptions.md" />
     <None Include="Source Files\p20.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
