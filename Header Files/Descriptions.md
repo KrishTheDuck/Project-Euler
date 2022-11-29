@@ -1,15 +1,7 @@
- <!doctype html>
-    <html>
-    <head>
-    	<meta charset="UTF-8">
-        <link rel="stylesheet" media="all" href="normalize.css">
-        <link rel="stylesheet" media="all" href="core.css">
-    	<link rel="stylesheet" media="all" href="style.css">
-    	<script type="text/javascript"
-        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-      </script>
-    </head>
-    <body data-document>&nbsp;</body>
-    </html>
-    
-    \\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]
+Let  be the set of pairs of real numbers . Let .
+
+Consider the function  from  to  defined by , and its -th iterated composition . For example . A pair  is said to have period  if  is the smallest positive integer such that .
+
+Let  denote the sum of -coordinates of all points having period not exceeding . Interestingly,  is always an integer. For example, , , .
+
+Find  and give your answer modulo .
