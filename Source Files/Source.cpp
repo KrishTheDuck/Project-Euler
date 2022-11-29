@@ -1,9 +1,7 @@
-//main
-#include <iostream>
-#include "AllHeaders.h"
+#include "..\Header Files\AllHeaders.h"
 
-int main() {
-	p11* a = new p11();
+int main(void) {
+	AbstractSolution* a = new p3();
 	a->solve();
-	delete a;
+	return 0;
 }

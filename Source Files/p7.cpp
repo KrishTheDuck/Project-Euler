@@ -1,4 +1,4 @@
-#include "p7.h"
+#include "../Header Files/p7.h"
 
 bool p7::isPrime(int i) {
     if (i % 2 == 0) return false;

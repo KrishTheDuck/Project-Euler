@@ -5,7 +5,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.*/
 
 class p1 : public AbstractSolution {
 private:
-	constexpr static const int _MAX_ = 999;
+	static const int _MAX_ = 999;
 	int multiples(int multiplier);
 public:
 	virtual void solve();

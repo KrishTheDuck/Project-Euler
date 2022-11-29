@@ -2,7 +2,7 @@
 #include "AbstractSolution.h"
 class p10 : public AbstractSolution{
 public:
-    constexpr static const int n = 2000000;
+    static const int n = 2000000;
     constexpr static const int n_2 = n >> 1;
     virtual void solve();
     ~p10();

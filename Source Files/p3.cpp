@@ -1,4 +1,4 @@
-#include "p3.h"
+#include "../Header Files/p3.h"
 
 void p3::solve()
 {

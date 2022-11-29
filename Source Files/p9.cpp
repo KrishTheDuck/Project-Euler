@@ -1,4 +1,4 @@
-#include "p9.h"
+#include "../Header Files/p9.h"
 /*a2 + b2 = c2
 a+b+c=1000
 (a+b)2-2ab=c2

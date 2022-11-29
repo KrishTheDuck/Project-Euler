@@ -1,4 +1,4 @@
-#include "AbstractSolution.h"
+#include "../Header Files/AbstractSolution.h"
 
 void AbstractSolution::solve()
 {

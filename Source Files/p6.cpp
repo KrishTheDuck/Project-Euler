@@ -2,7 +2,7 @@
 //OR
 //((n*(n+1))/2)^2 - n*(n+1)*(2n+1)/6
 
-#include "p6.h"
+#include "../Header Files/p6.h"
 
 int p6::sol1(std::vector<int>* nums) {
 	int result = 0;

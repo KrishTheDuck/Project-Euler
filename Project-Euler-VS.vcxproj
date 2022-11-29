@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -19,34 +19,56 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AbstractSolution.cpp" />
-    <ClCompile Include="p1.cpp" />
-    <ClCompile Include="p10.cpp" />
-    <ClCompile Include="p11.cpp" />
-    <ClCompile Include="p2.cpp" />
-    <ClCompile Include="p3.cpp" />
-    <ClCompile Include="p4.cpp" />
-    <ClCompile Include="p5.cpp" />
-    <ClCompile Include="p6.cpp" />
-    <ClCompile Include="p7.cpp" />
-    <ClCompile Include="p8.cpp" />
-    <ClCompile Include="p9.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClInclude Include="Header Files\AbstractSolution.h" />
+    <ClInclude Include="Header Files\AllHeaders.h" />
+    <ClInclude Include="Header Files\p18.h" />
+    <ClInclude Include="Header Files\p17.h" />
+    <ClInclude Include="Header Files\p1.h" />
+    <ClInclude Include="Header Files\p10.h" />
+    <ClInclude Include="Header Files\p11.h" />
+    <ClInclude Include="Header Files\p12.h" />
+    <ClInclude Include="Header Files\p13.h" />
+    <ClInclude Include="Header Files\p14.h" />
+    <ClInclude Include="Header Files\p15.h" />
+    <ClInclude Include="Header Files\p16.h" />
+    <ClInclude Include="Header Files\p2.h" />
+    <ClInclude Include="Header Files\p20.h" />
+    <ClInclude Include="Header Files\p3.h" />
+    <ClInclude Include="Header Files\p30.h" />
+    <ClInclude Include="Header Files\p4.h" />
+    <ClInclude Include="Header Files\p5.h" />
+    <ClInclude Include="Header Files\p6.h" />
+    <ClInclude Include="Header Files\p7.h" />
+    <ClInclude Include="Header Files\p8.h" />
+    <ClInclude Include="Header Files\p802.h" />
+    <ClInclude Include="Header Files\p9.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AbstractSolution.h" />
-    <ClInclude Include="p1.h" />
-    <ClInclude Include="p10.h" />
-    <ClInclude Include="p11.h" />
-    <ClInclude Include="p2.h" />
-    <ClInclude Include="AllHeaders.h" />
-    <ClInclude Include="p3.h" />
-    <ClInclude Include="p4.h" />
-    <ClInclude Include="p5.h" />
-    <ClInclude Include="p6.h" />
-    <ClInclude Include="p7.h" />
-    <ClInclude Include="p8.h" />
-    <ClInclude Include="p9.h" />
+    <ClCompile Include="Header Files\p1.cpp" />
+    <ClCompile Include="Source Files\p13.cpp" />
+    <ClCompile Include="Source Files\AbstractSolution.cpp" />
+    <ClCompile Include="Source Files\p10.cpp" />
+    <ClCompile Include="Source Files\p11.cpp" />
+    <ClCompile Include="Source Files\p12.cpp" />
+    <ClCompile Include="Source Files\p14.cpp" />
+    <ClCompile Include="Source Files\p15.cpp" />
+    <ClCompile Include="Source Files\p16.cpp" />
+    <ClCompile Include="Source Files\p17.cpp" />
+    <ClCompile Include="Source Files\p18.cpp" />
+    <ClCompile Include="Source Files\p2.cpp" />
+    <ClCompile Include="Source Files\p3.cpp" />
+    <ClCompile Include="Source Files\p30.cpp" />
+    <ClCompile Include="Source Files\p4.cpp" />
+    <ClCompile Include="Source Files\p5.cpp" />
+    <ClCompile Include="Source Files\p6.cpp" />
+    <ClCompile Include="Source Files\p7.cpp" />
+    <ClCompile Include="Source Files\p8.cpp" />
+    <ClCompile Include="Source Files\p802.cpp" />
+    <ClCompile Include="Source Files\p9.cpp" />
+    <ClCompile Include="Source Files\Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source Files\p20.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -59,26 +81,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>

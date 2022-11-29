@@ -1,4 +1,4 @@
-#include "p8.h"
+#include "../Header Files/p8.h"
 
 void p8::solve() {
     unsigned int length = 1000;

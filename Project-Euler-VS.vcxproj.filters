@@ -15,85 +15,145 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClInclude Include="Header Files\p12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\AbstractSolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\AllHeaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p14.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p17.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p18.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p802.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p30.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\p20.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\p7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p1.cpp">
+    <ClCompile Include="Source Files\p8.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AbstractSolution.cpp">
+    <ClCompile Include="Source Files\p9.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p2.cpp">
+    <ClCompile Include="Source Files\p10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p3.cpp">
+    <ClCompile Include="Source Files\p11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p4.cpp">
+    <ClCompile Include="Source Files\Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p5.cpp">
+    <ClCompile Include="Source Files\AbstractSolution.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p6.cpp">
+    <ClCompile Include="Source Files\p2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p7.cpp">
+    <ClCompile Include="Source Files\p3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p8.cpp">
+    <ClCompile Include="Source Files\p4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p9.cpp">
+    <ClCompile Include="Source Files\p5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p10.cpp">
+    <ClCompile Include="Source Files\p6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p11.cpp">
+    <ClCompile Include="Header Files\p1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\p12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\p13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\p14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\p15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\p16.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\p17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\p18.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\p802.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\p30.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AbstractSolution.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AllHeaders.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p1.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p4.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p5.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p6.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p7.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p8.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p9.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p10.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="p11.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <None Include="Source Files\p20.cpp" />
   </ItemGroup>
 </Project>

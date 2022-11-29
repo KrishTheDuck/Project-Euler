@@ -6,7 +6,7 @@
 //thus a must be floor(log(k)/log(pi))
 //we first generate primes
 
-#include "p5.h"
+#include "../Header Files/p5.h"
 
 void p5::prime_gen(int max, std::vector<int>* primes) {
     primes->clear();
